@@ -1,0 +1,56 @@
+Create a HTML document that has your image and your friend’s image with a specific height and width. Also when clicked on the images it should navigate to their respective profiles.
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Profiles</title>
+</head>
+
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
+            text-align: center;
+       
+    }
+        h1 {
+            color: #1316e2;
+        }
+        .profile {
+            display: inline-block;
+            margin: 50px;
+        }
+        img {
+
+    
+            width: 150px;
+            height: 153px;
+            border-radius: 50px;
+            border: 5px solid #00ffd5;
+        }
+        a {
+            text-decoration: none;
+            color: #e95e0d;
+        }
+        
+    </style>
+
+<body>
+    <h1>Profile links</h1>
+    <div class="profile">
+        <a href="www.google.com" target="_blank">
+            <img src="https://pics.craiyon.com/2023-10-22/634c384261184bc1b75335a7a9a8d5d0.webp" alt="My profile">
+        </a>
+        <p><a href="www.google.com">My Profile</a></p>
+        
+    </div>
+    <div class="profile">
+    <a href="www.google.com" target="_blank">
+            <img src="https://i.pinimg.com/736x/72/b5/dc/72b5dcf7d3451a5a629b684ecdc65ec8.jpg" alt="friend profile">
+        </a>
+        <p><a href="www.google.com">Friend Profile</a></p>
+    </div>
+
+</body>
