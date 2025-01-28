@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Specification Formats</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .internal-style{
+            font-size: 25px;
+            color:green;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="part">
+    <h1 class="heading">Style Specification Formats</h1>
+    <p class="inline-style" style="font-size: 25px;color:red;text-align: center;">This paragraph uses<b style="font-size: 25px;color:red;text-align: center;"> inline styles</b> to set color,font size and alignment</p>
+    <p class="internal-style">
+        This paragraph uses internal styles defined in the &lt;style&gt; tag inside the &lt;head&gt;.
+    </p>
+    <p class="external">This paragraph uses <b>external styles</b> defined in an external file</p>
+    </div>
+</body>
+
+
+styles.css
+
+
+body{
+    background-color: #d1c5c5;
+    text-align: center;
+}
+.external{
+    color:rgb(3, 194, 252);
+    font-size: 25px;
+
+}
+.heading{
+    color: rgb(0, 102, 255);
+}
