@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Color references</title>
+    <style>
+     p{
+        color: white;
+        text-size-adjust: 20px;
+     }
+       
+    </style>
+</head>
+
+<body>
+    <h1 style="color: black;">CSS Color references</h1>
+    <p style="background-color: red;
+            font-size: 35px;">Color Name:Red</p>
+    <p style="background-color: #1E90FF; font-size: 30px; padding: 10px; margin-bottom: 5px;">HEX Value:#1E90FF</p>
+    <p style="background-color: rgb(34,139,34); font-size: 30px; padding: 10px; margin-bottom: 5px; margin-top:5px;">RGB Value:rgb(34,139,34)</p>
+
+    <p style="background-color: rgba(255,99,71,0.7); font-size: 30px; padding: 10px; margin-top:0%;">RGBA Value:rgba(255,99,71,0.7)</p>
+
+</body>
